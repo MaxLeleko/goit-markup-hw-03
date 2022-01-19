@@ -10,32 +10,42 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a class="link" href="/"><span class="logo">Web</span>Studio</a>
-      <nav>
-        <ul class="nav list">
-          <li><a href="./" class="link current">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="#!" class="link">Контакты</a></li>
+    <header class="header">
+      <a class="link header-logo" href="/"
+        ><span class="logo">Web</span>Studio</a
+      >
+      <nav class="header-nav">
+        <ul class="header-nav-list list">
+          <li><a href="./" class="header-nav-link link current">Студия</a></li>
+          <li>
+            <a href="./portfolio.html" class="header-nav-link link"
+              >Портфолио</a
+            >
+          </li>
+          <li><a href="#!" class="header-nav-link link">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul class="contacts list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="link">
+      <ul class="header-contacts list">
+        <li class="header-contacts-item">
+          <a href="mailto:info@devstudio.com" class="header-contacts-link link">
             info@devstudio.com</a
           >
         </li>
-        <li><a href="tel:+0961111111" class="link"> 096 1111111</a></li>
+        <li>
+          <a href="tel:+0961111111" class="header-contacts-item link">
+            096 1111111</a
+          >
+        </li>
       </ul>
     </header>
 
     <main>
       <section class="hero">
-        <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+        <h1 class="hero-title">Эффективные решения для вашего бизнесса</h1>
         <button class="btn hero-btn" type="button">Заказать услугу</button>
       </section>
 
@@ -116,25 +126,29 @@
     </main>
 
     <footer class="footer">
-      <a class="link" href="/"><span class="logo">Web</span>Studio</a>
+      <a class="link footer-logo" href="./"
+        ><span class="logo">Web</span>Studio</a
+      >
       <address>
-        <ul class="list">
-          <li>
+        <ul class="footer-list list">
+          <li class="footer-item">
             <a
-              class="link real-adress"
+              class="footer-link link real-adress"
               target="blank"
               href="https://www.google.com/maps/d/embed?mid=10uSM3H-mIU3GznYo2szRIEphczw&ehbc=2E312F"
             >
               г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li>
-            <a href="mailto:info@example.com" class="link footer-info"
+          <li class="footer-item">
+            <a
+              href="mailto:info@example.com"
+              class="footer-link link footer-info"
               >info@example.com</a
             >
           </li>
-          <li>
-            <a href="tel:++380991111111" class="link footer-info">
+          <li class="footer-item">
+            <a href="tel:++380991111111" class="footer-link link footer-info">
               +38 099 111 11 11</a
             >
           </li>

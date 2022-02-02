@@ -176,6 +176,8 @@ body {
   margin-right: auto;
   margin-left: auto;
   border: none;
+  min-width: 200px;
+  min-height: 50px;
 }
 /* Решения end */
 
@@ -327,12 +329,27 @@ body {
 }
 
 .portfolio-btn {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
   color: var(--secondary-color);
   border-radius: 4px;
   border: none;
+  min-height: 38px;
+  text-align: center;
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
+.portfolio-btn-item {
+  margin-right: 8px;
+}
+
+.portfolio-btn-list {
+  display: flex;
+  padding-bottom: 50px;
+  justify-content: center;
 }
 
 .portfolio-btn:hover,
@@ -348,16 +365,6 @@ body {
 
 .portfolio .container {
   padding-top: 94px;
-}
-
-.portfolio-btn-list {
-  display: flex;
-  padding-bottom: 50px;
-  justify-content: center;
-}
-
-.portfolio-btn-item {
-  margin-right: 8px;
 }
 
 .portfolio-card-list {

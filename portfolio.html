@@ -17,38 +17,43 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header container">
-      <a class="link header-logo" href="./portfolio.html"
-        ><span class="logo">Web</span>Studio</a
-      >
-      <nav class="header-nav">
-        <ul class="header-nav-list list">
-          <li class="header-nav-item">
-            <a href="./index.html" class="header-nav-link link">Студия</a>
-          </li>
-          <li class="header-nav-item">
-            <a href="./portfolio.html" class="header-nav-link link current"
-              >Портфолио</a
+    <header class="header">
+      <div class="container special">
+        <a class="link header-logo" href="./index.html"
+          ><span class="logo">Web</span>Studio</a
+        >
+        <nav class="header-nav">
+          <ul class="header-nav-list list">
+            <li class="header-nav-item">
+              <a href="./index.html" class="header-nav-link link">Студия</a>
+            </li>
+            <li class="header-nav-item current">
+              <a href="./portfolio.html" class="header-nav-link link"
+                >Портфолио</a
+              >
+            </li>
+            <li class="header-nav-item">
+              <a href="#!" class="header-nav-link link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="header-contacts list">
+          <li class="header-contacts-item">
+            <a
+              href="mailto:info@devstudio.com"
+              class="header-contacts-link link"
+            >
+              info@devstudio.com</a
             >
           </li>
-          <li class="header-nav-item">
-            <a href="#!" class="header-nav-link link">Контакты</a>
+          <li class="header-contacts-item">
+            <a href="tel:+0961111111" class="header-contacts-link link">
+              096 1111111</a
+            >
           </li>
         </ul>
-      </nav>
-
-      <ul class="header-contacts list">
-        <li class="header-contacts-item">
-          <a href="mailto:info@devstudio.com" class="header-contacts-link link">
-            info@devstudio.com</a
-          >
-        </li>
-        <li class="header-contacts-item">
-          <a href="tel:+0961111111" class="header-contacts-link link">
-            096 1111111</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
 
     <main>
@@ -85,8 +90,10 @@
                 alt=" сайт технокряк"
                 width="370"
               />
-              <h3 class="portfolio-card-subtitle">Технокряк</h3>
-              <p class="portfolio-card-description">Веб-сайт</p>
+              <div class="portfolio-block">
+                <h3 class="portfolio-card-subtitle">Технокряк</h3>
+                <p class="portfolio-card-description">Веб-сайт</p>
+              </div>
             </li>
             <li class="portfolio-card-item">
               <img
@@ -95,10 +102,12 @@
                 alt="спортивный постер"
                 width="370"
               />
-              <h3 class="portfolio-card-subtitle">
-                Постер <span lang="en">New Orlean vs Golden Star</span>
-              </h3>
-              <p class="portfolio-card-description">Дизайн</p>
+              <div class="portfolio-block">
+                <h3 class="portfolio-card-subtitle">
+                  Постер <span lang="en">New Orlean vs Golden Star</span>
+                </h3>
+                <p class="portfolio-card-description">Дизайн</p>
+              </div>
             </li>
             <li class="portfolio-card-item">
               <img
@@ -107,10 +116,12 @@
                 alt="морской ресторан"
                 width="370"
               />
-              <h3 class="portfolio-card-subtitle">
-                Ресторан <span lang="en">Seafood</span>
-              </h3>
-              <p class="portfolio-card-description">Приложение</p>
+              <div class="portfolio-block">
+                <h3 class="portfolio-card-subtitle">
+                  Ресторан <span lang="en">Seafood</span>
+                </h3>
+                <p class="portfolio-card-description">Приложение</p>
+              </div>
             </li>
             <li class="portfolio-card-item">
               <img
@@ -119,10 +130,12 @@
                 alt="проект о музыке"
                 width="370"
               />
-              <h3 class="portfolio-card-subtitle">
-                Проект <span lang="en">Prime</span>
-              </h3>
-              <p class="portfolio-card-description">Маркетинг</p>
+              <div class="portfolio-block">
+                <h3 class="portfolio-card-subtitle">
+                  Проект <span lang="en">Prime</span>
+                </h3>
+                <p class="portfolio-card-description">Маркетинг</p>
+              </div>
             </li>
             <li class="portfolio-card-item">
               <img
@@ -131,10 +144,12 @@
                 alt="проект о подарках"
                 width="370"
               />
-              <h3 class="portfolio-card-subtitle">
-                Проект <span lang="en">Boxes</span>
-              </h3>
-              <p class="portfolio-card-description">Приложение</p>
+              <div class="portfolio-block">
+                <h3 class="portfolio-card-subtitle">
+                  Проект <span lang="en">Boxes</span>
+                </h3>
+                <p class="portfolio-card-description">Приложение</p>
+              </div>
             </li>
             <li class="portfolio-card-item">
               <img
@@ -143,10 +158,12 @@
                 alt="сайт о вдохновлении"
                 width="370"
               />
-              <h3 class="portfolio-card-subtitle" lang="en">
-                Inspiration has no Borders
-              </h3>
-              <p class="portfolio-card-description">Веб-сайт</p>
+              <div class="portfolio-block">
+                <h3 class="portfolio-card-subtitle" lang="en">
+                  Inspiration has no Borders
+                </h3>
+                <p class="portfolio-card-description">Веб-сайт</p>
+              </div>
             </li>
             <li class="portfolio-card-item">
               <img
@@ -155,10 +172,12 @@
                 alt="печатное издание"
                 width="370"
               />
-              <h3 class="portfolio-card-subtitle">
-                Издание <span lang="en">Limited Edition</span>
-              </h3>
-              <p class="portfolio-card-description">Дизайн</p>
+              <div class="portfolio-block">
+                <h3 class="portfolio-card-subtitle">
+                  Издание <span lang="en">Limited Edition</span>
+                </h3>
+                <p class="portfolio-card-description">Дизайн</p>
+              </div>
             </li>
             <li class="portfolio-card-item">
               <img
@@ -167,10 +186,12 @@
                 alt="проект ЛАБ"
                 width="370"
               />
-              <h3 class="portfolio-card-subtitle">
-                Проект <span lang="en">LAB</span>
-              </h3>
-              <p class="portfolio-card-description">Маркетинг</p>
+              <div class="portfolio-block">
+                <h3 class="portfolio-card-subtitle">
+                  Проект <span lang="en">LAB</span>
+                </h3>
+                <p class="portfolio-card-description">Маркетинг</p>
+              </div>
             </li>
             <li class="portfolio-card-item">
               <img
@@ -179,10 +200,12 @@
                 alt="бизнесс приложение"
                 width="370"
               />
-              <h3 class="portfolio-card-subtitle" lang="en">
-                Growing Business
-              </h3>
-              <p class="portfolio-card-description">Приложение</p>
+              <div class="portfolio-block">
+                <h3 class="portfolio-card-subtitle" lang="en">
+                  Growing Business
+                </h3>
+                <p class="portfolio-card-description">Приложение</p>
+              </div>
             </li>
           </ul>
         </div>
